@@ -1,0 +1,12 @@
+[project]
+name = "mcp-security-lab"
+version = "1.0.0"
+description = "MCP security: permission policies, approval (elicitation), risk levels and audit logging"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# UI handlers and MCP tools turn any failure into a readable error message on purpose.
+ignore = ["BLE001"]

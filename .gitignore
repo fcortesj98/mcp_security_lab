@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+mcp_security_env/
+.gradio/
+.env
+data/audit.log
